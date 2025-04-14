@@ -1,0 +1,197 @@
+/* === Global === */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* === Page containers === */
+.band-form-page {
+  margin: 4rem 12rem;
+}
+
+.band-form-content {
+  display: flex;
+  margin-top: 2rem;
+  gap: 3rem;
+  flex-wrap: wrap;
+}
+
+.band-info {
+  flex: 2;
+
+}
+
+.band-info img {
+  max-width: 100%;
+  height: auto;
+}
+
+.image-placeholder {
+  width: 100%;
+  height: 450px;
+  background-color: #f0f0f0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #888;
+  font-size: 1rem;
+  border-radius: 1rem;
+}
+
+.form {
+  background-color: #F7F8FA;
+  padding: 1rem 3rem 3rem;
+  flex: 3;
+}
+
+.rounded-box {
+  border-radius: 0.25rem;
+}
+
+
+/* === Typography === */
+.form hr {
+  border: none;
+  height: 1.5px;
+  background-color: #ccc;
+  margin: 2rem 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #3F4752;
+}
+
+.band-form-page h1 {
+  margin: 0;
+}
+
+.description-text {
+  color: #808C9F;
+  font-weight: 500;
+}
+
+.description-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+/* === Ticket Type Component === */
+.ticket-type-card {
+  display: flex;
+  justify-content: space-between;
+  gap: 5rem;
+}
+
+.ticket-name,
+.ticket-price {
+  color: #676767;
+  font-weight: 300;
+}
+
+.ticket-name {
+  font-size: 1.5rem;
+}
+
+.ticket-price {
+  font-size: 1.25rem;
+}
+
+.ticket-quantity-input {
+  width: 4rem;
+  height: 2.5rem;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+/* === Form Inputs === */
+.form input[type="text"] {
+  width: 100%;
+  box-sizing: border-box;
+  height: 2.5rem;
+  margin-bottom: 0.5rem;
+  padding: 1.25rem;
+  font-size: 1rem;
+}
+
+.horizontal-inputs {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.horizontal-inputs div {
+  flex: 1;
+}
+
+.input-with-icon {
+  position: relative;
+}
+
+.icon-inside-input {
+  position: absolute;
+  right: 1rem;
+  top: 42%;
+  transform: translateY(-50%);
+  pointer-events: none;
+  color: #888;
+}
+
+.input-error {
+  border-color: red;
+  background-color: #f8d7da;
+}
+
+.error-message {
+  color: crimson;
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+
+/* == Total Section === */
+.total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.75rem;
+  color: #676767;
+  font-weight: 500;
+  margin-bottom: 2.5rem;
+}
+
+.total-title {
+  font-weight: 200;
+}
+
+/* === Purchase button === */
+.purchase-button {
+  background-color: #606060;
+  color: white;
+  border: none;
+  padding: 1rem;
+  margin-top: 1rem;
+  cursor: pointer;
+  width: 100%;
+  font-size: 1rem;
+}
+
+.purchase-button:hover {
+  background-color: #505050;
+}
+
+.purchase-button:active {
+  background-color: #404040;
+}
+
+/* === Utility Classes === */
+.hidden {
+  display: none;
+}
