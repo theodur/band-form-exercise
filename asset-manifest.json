@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/band-form-exercise/static/css/main.bec41489.css",
-    "main.js": "/band-form-exercise/static/js/main.b74932fe.js",
+    "main.css": "/band-form-exercise/static/css/main.82cf5431.css",
+    "main.js": "/band-form-exercise/static/js/main.81f535cf.js",
     "index.html": "/band-form-exercise/index.html",
-    "main.bec41489.css.map": "/band-form-exercise/static/css/main.bec41489.css.map",
-    "main.b74932fe.js.map": "/band-form-exercise/static/js/main.b74932fe.js.map"
+    "main.82cf5431.css.map": "/band-form-exercise/static/css/main.82cf5431.css.map",
+    "main.81f535cf.js.map": "/band-form-exercise/static/js/main.81f535cf.js.map"
   },
   "entrypoints": [
-    "static/css/main.bec41489.css",
-    "static/js/main.b74932fe.js"
+    "static/css/main.82cf5431.css",
+    "static/js/main.81f535cf.js"
   ]
 }
