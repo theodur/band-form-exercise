@@ -78,7 +78,7 @@ function BandForm({ band }) {
 
       <div className="band-form-content">
         <div className="band-info">
-          {!isImageLoaded && <div role="status" className="image-placeholder">Loading...</div>}
+          {!isImageLoaded && <div role="status" className="image-placeholder rounded-box">Loading...</div>}
           <img 
             src="https://picsum.photos/450" 
             alt={band.name} 
